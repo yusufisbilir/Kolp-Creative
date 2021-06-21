@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li, ol{
+    list-style: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:focus{
+    text-decoration: none;
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border: none;
+}
