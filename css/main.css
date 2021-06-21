@@ -87,3 +87,81 @@ header{
 .slider-controls span:not(:last-child){
     margin-right: 5px;
 }
+
+
+
+/* Our Services */
+#our-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+.services-top{
+    text-align: center;
+    margin: 100px 0;
+}
+.page-title-heading h1{
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+.page-title-icon hr{
+    display: inline-block;
+    width: 72px;
+    color: #c4c4c1;
+}
+.page-title-icon i{
+    font-size: 18px;
+}
+.page-title-text{
+    margin-top: 28px;
+    color: #444;
+}
+
+.services-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-bottom-icon{
+    text-align: center;
+}
+.services{
+    height: 360px;
+    width: 350px;
+    padding-top: 10px;
+    transition: .3s all;
+}
+.services:hover{
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1) ;
+    padding-top: 50px;
+}
+.services-bottom-icon img{
+    transition: .2s all;
+}
+.services:hover .services-bottom-icon img{
+    filter: invert(63%) sepia(73%) saturate(5486%) hue-rotate(324deg) brightness(100%) contrast(89%);
+}
+.services:hover .services-bottom-text p{
+    display: none;
+}
+.services-bottom-text{
+    padding: 0 20px;
+}
+.services-bottom-text h1{
+    margin: 36px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.services-bottom-text p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #444;
+}
