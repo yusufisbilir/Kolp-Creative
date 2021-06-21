@@ -1,2 +1,89 @@
 /* reset css */
 @import url("reset.css");
+
+/* header */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../img/header.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.logo img{
+    width: auto;
+    height: 30px;
+}
+.menu{
+    font-size: 18px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.menu i{
+    font-size: 18px;
+    color: #fff;
+}
+.slider-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.slider-text h1{
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.slider-text p{
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px 0 30px 0;
+}
+.slider-text a{
+    display: block;
+    width: 90px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    transition: .3s all ;
+}
+.slider-text a:hover{
+    background-color: crimson;
+    color: #fff;
+    width: 100px;
+}
+.slider-text a i{
+    font-size: 10px;
+    margin-right: 5px;
+    transition: .3s all;
+}
+.slider-text a:hover i{
+    margin-right: 10px;
+    color: #fff;
+}
+.slider-controls span{
+    text-indent: -9999px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.slider-controls span:not(:last-child){
+    margin-right: 5px;
+}
